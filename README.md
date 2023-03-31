@@ -1,6 +1,6 @@
 # gruene_api_client 
 
-run
+If you want to publish a new version run
 ```bash
 openapi-generator generate -i https://app.gruene.de/api-json -g dart-dio --additional-properties=pubName=gruene_api_client --additional-properties=pubLibrary=api_client --additional-properties=pubVersion=<version> & flutter pub run build_runner build
 ```
